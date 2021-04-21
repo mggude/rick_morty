@@ -2,10 +2,17 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.characterWrapper {
+  display: inline;
 }
+
+.character {
+  padding: .2rem;
+  height: 10rem;
+  width: 10rem;
+
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
